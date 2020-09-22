@@ -1,180 +1,142 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
+*{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
-nav {
-  background: black;
-  width: 100%;
-  height: 80px;
+
+header{
+  margin: 0;
+  padding: 0;
   position: fixed;
-}
-label.logo {
-  color: white;
-  text-transform: uppercase;
-  font-size: 18px;
-  line-height: 80px;
-  padding: 0 50px;
-  font-weight: bold;
-}
-nav ul {
-  float: right;
-  margin-right: 50px;
-}
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin-left: 20px;
-}
-nav ul li a {
-  color: white;
-  font-size: 17px;
-  text-transform: uppercase;
-  border-radius: 3px;
-}
-a.active,
-a:hover {
-  background: #1b9bff;
-  transition: 0.5s;
-}
-.checkbtn {
-  color: white;
-  float: right;
-  line-height: 80px;
-  padding-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-#check {
-  display: none;
-}
-
-@media (max-width: 952px) {
-  label.logo {
-    font-size: 50px;
-    padding-left: 50px;
-  }
-  nav ul li a {
-    font-size: 20px;
-  }
-  nav ul {
-    padding-right: 50px;
-  }
-}
-@media (max-width: 852px) {
-  .checkbtn {
-    display: block;
-  }
-  ul {
-    position: fixed;
-    background: rgb(68, 68, 194);
-    width: 100%;
-    height: 100vh;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all 0.5s;
-  }
-  nav ul li {
-    display: block;
-  }
-  a:hover,
-  a.active {
-    background: none;
-    color: rgb(90, 161, 81);
-  }
-  #check:checked ~ ul {
-    left: 0px;
-  }
-}
-.pp1 {
-  background-image: url("../res/im9.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 140vh;
-}
-.page-1 {
-  height: auto;
-  width: 1218px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 200px;
-}
-.pub {
-  text-align: center;
-  line-height: 50px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  word-break: 7px;
-}
-div .pub p {
-}
-.footer1 {
-  margin-left: 40px;
-
-  padding-top: 300px;
-}
-div.pp2 {
-  height: 100vh;
-  background: rgb(95, 236, 229);
-}
-
-div.gallery {
-  float: left;
-}
-div.gallery {
-  height: auto;
-  width: 402px;
-  margin-right: 3px;
-  margin-left: 3px;
-}
-div.container {
-  height: 300px;
-  width: 1238px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-}
-section.sp2 h1 {
-  width: 100px;
-  margin-left: 100px;
-  padding-top: 80px;
-}
-.fp2 {
-  margin-left: 40px;
-
-  padding-top: 97px;
-}
-div.pp3 * {
-  color: #d9d9d9;
-}
-div.pp3 {
-  height: 100vh;
-  position: relative;
-}
-div.main-content {
-  background: black;
-
   width: 100%;
-  position: absolute;
-  bottom: 0px;
-}
-div.main-content {
-  display: flex;
-}
+  background-color: white;
 
-.left {
-  padding-left: 100px;
+
+height: 80px;
+
+
+ 
 }
-.right {
-  padding-left: 330px;
+.nav_class{
+  
+  padding: 20px;
+  margin: auto 105.682px;
+  display: flex;
+  justify-content: space-around;
+  
+  /* grid-template-columns: 3fr 2fr; */
+  
 }
-.center {
-  margin-left: 350px;
+ul{
+  list-style: none;
+  display: flex;
+  /* justify-content: flex-end; */
+  font-size: 20px;
+  
+  
 }
-div.pp3 h1 {
-  margin-left: 100px;
+li{
+  line-height:40px;
+  margin: 0 20px;
+
+}
+.first_nav{
+  color:#00b39b ;
+}
+a:hover{
+  color: #00b39b;
+}
+a:active{
+  color: #00b39b; 
+}
+.introduction{
+  text-align: center;
   padding-top: 80px;
+}
+#logo{
+  padding-top: 20px;
+}
+#first_h2{
+  padding-top: 20px;
+  color:#00b39b ;
+}
+.info{
+  display: flex ;
+  justify-content: center;
+  
+  
+}
+.col-1,.col-2{
+  width: 400px;
+  height: auto;
+  padding: 50px 20px ;
+}
+.patients{
+  margin: 20px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.patients1{
+  width: 50%;
+  background-color: #00ccb1;
+  margin: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.patients2{
+  width: 50%;
+  background-color: #3d83df;
+  margin: 5px;
+  border-radius:10px;
+  overflow: hidden;
+}
+.content{
+  padding:20px 30px;
+}
+figure{
+  padding-left: 250px;
+  
+  
+}
+.fig2{
+  padding-top:80px;
+}
+.dropdown{
+  padding:0 30px;
+  
+}
+#pays{
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  
+}
+.content p{
+  color: #b3ead2;
+
+}
+.content h1{
+  color: white;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  
+  font-size: 2em;
+  margin-top: 30px;
+}
+.company{
+  margin: 0px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.h{
+  flex-basis: 230px;
+}
+.location{
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.l{
+  margin: 20px;
 }
