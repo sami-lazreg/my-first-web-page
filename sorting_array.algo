@@ -1,0 +1,11 @@
+ALGORITHM sorting_array
+VAR
+    tab:ARRAY_OF INTEGER[10];
+    i:INTEGER;
+BEGIN
+    FOR i FROM 0 TO 9  DO
+        Write('insert number')
+        Read(x)
+        tab[x]:=X
+    END_FOR
+END
